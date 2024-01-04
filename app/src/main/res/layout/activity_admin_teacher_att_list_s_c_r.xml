@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AdminActivity.AdminTeacherAttListSCR">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/Mahroon"
+        android:gravity="start|top"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/st_att_back"
+            android:layout_width="26sp"
+            android:layout_height="26dp"
+            android:src="@drawable/back"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Teacher Attendance"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/ed_stID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Teacher ID"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+                android:textColor="@color/Mahroon"
+                />
+
+            <EditText
+                android:id="@+id/ed_stMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Month 'Nov'"
+                android:layout_marginLeft="5dp"
+                android:inputType="text"
+                android:textColor="@color/Mahroon"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="search"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            app:cornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/Mahroon"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_showAtt"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminActivity.AdminAddClass">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/Mahroon"
+            android:gravity="start|top"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/admin_studentImage_back"
+                android:layout_width="26sp"
+                android:layout_height="26dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_back_white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Classes"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Student Classes"
+            android:gravity="center"
+            android:textColor="@color/Mahroon"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+        <EditText
+            android:id="@+id/ed_ClassSession"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Class Session 'example 2021' "
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@color/Grey"
+            android:textSize="14sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/ed_addClass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Class Name 'example BSCS 3RD SEM'"
+            android:textAllCaps="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/Grey"
+            android:textSize="14sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/Mahroon"
+            app:cornerRadius="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

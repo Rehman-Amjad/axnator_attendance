@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="My Profile"
+        android:icon="@drawable/ic_user_inactive"
+        android:id="@+id/nav_teacher_profile"
+        />
+
+    <item android:title="My Attendence"
+        android:icon="@drawable/ic_book"
+        android:id="@+id/nav_teacher_attendence"
+        />
+
+
+
+    <item android:title="Add Student Attendence"
+        android:icon="@drawable/ic_teac_student_atten"
+        android:id="@+id/nav_teacher_stAttendence"
+        />
+
+    <item android:title="Show Attendance"
+        android:icon="@drawable/ic_teac_student_atten"
+        android:id="@+id/nav_teacher_ShowAttendence"
+        />
+
+    <item android:title="Check Student Attendance"
+        android:icon="@drawable/ic_teac_student_atten"
+        android:id="@+id/nav_teacher_checkAtten"
+        />
+
+    <item android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        android:id="@+id/nav_logout"
+        />
+
+</menu>

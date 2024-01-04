@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "120626010401",
+    "project_id": "cloud-base-attendance",
+    "storage_bucket": "cloud-base-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120626010401:android:2541e34bc8d1333c24c660",
+        "android_client_info": {
+          "package_name": "com.example.axonatormobileattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120626010401-6p6gjq8btdhmt1hf0jqo6otd74j0hpk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.axonatormobileattendance",
+            "certificate_hash": "41726217185bb2987435b1789a6b609cb71bc1e7"
+          }
+        },
+        {
+          "client_id": "120626010401-bgglf6qub5deuadvnkbli543tscuhe2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsDeHGkh8_saHcxY_ZiL8G4IkanoH4qDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120626010401-bgglf6qub5deuadvnkbli543tscuhe2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
